@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="main_activity_divider">#5559A62A</color>
+    <color name="action_bar_background">#3c000d</color>
+    <color name="brown">@color/action_bar_background</color>
+    
+    <color name="divider_color">#faaf40</color>
+
+    <color name="white_10_percent">#1affffff</color>
+    <color name="white_25_percent">#40ffffff</color>
+    <color name="white_30_percent">#4affffff</color>
+    <color name="white_80_percent">#ccffffff</color>
+    
+    <!-- Gradient background colors -->
+    <color name="start_color">#f69054</color>
+    <color name="center_color">#e16826</color>
+    <color name="end_color">#c71525</color>
+    
+    <color name="red_button_100">#ffb8290b</color>
+    <color name="red_button_50">#80b8290b</color>
+    
+    <color name="main_orange">#faaf40</color>
+
+</resources>

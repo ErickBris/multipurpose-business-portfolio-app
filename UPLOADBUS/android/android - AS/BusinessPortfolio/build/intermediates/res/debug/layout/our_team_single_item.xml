@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.csform.businessportfolio"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/selector_white"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="vertical"
+            android:padding="24dp" >
+
+            <TextView
+                android:id="@+id/our_team_single_item_position"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:textColor="#fff"
+                android:textSize="13dp" />
+
+            <TextView
+                android:id="@+id/our_team_single_item_first_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:textColor="#fff"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/our_team_single_item_last_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="24dp" />
+
+        </LinearLayout>
+
+        <com.csform.businessportfolio.views.RoundedImageView
+            android:id="@+id/our_team_single_item_image"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="16dp"
+            android:layout_weight="0"
+            android:scaleType="centerCrop"
+            app:border_color="#fff"
+            app:border_width="5dip"
+            app:corner_radius="30dip"
+            app:is_oval="true"
+            app:round_background="true" />
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Darko/Desktop/BUSINESSAS/BusinessPortfolio/res/layout/our_team_single_item.xml -->

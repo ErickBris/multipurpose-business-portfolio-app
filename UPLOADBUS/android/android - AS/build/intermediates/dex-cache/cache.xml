@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\libs\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\build\intermediates\pre-dexed\debug\gson-2.2.4-8d9cb2aabc40388dbf55054bb60383cb522d6be1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\build\intermediates\exploded-aar\BUSINESSAS\google-play-services_lib\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bdbc6c889fd738ac3e6fbd0c5b761f974e438b2b">
+        <dex dex="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\build\intermediates\pre-dexed\debug\classes-cb7f505e75234fb8fce2c2d1418691a56528c8ea.jar" />
+    </item>
+    <item
+        jar="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\build\intermediates\pre-dexed\debug\android-support-v4-6feec95ed2f929a668226abe4eb1a35ad69ae8fb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\libs\universal-image-loader.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="296dfb44fbf31397c0306e60cb62e06ca40df07f">
+        <dex dex="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\build\intermediates\pre-dexed\debug\universal-image-loader-a3fab6b8b71965c821c0c5b020479a2e8dbbca8f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\build\intermediates\exploded-aar\BUSINESSAS\google-play-services_lib\unspecified\jars\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7676c0cb230efa6ac41c47867d372ed5913029d4">
+        <dex dex="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\build\intermediates\pre-dexed\debug\google-play-services-525a8fdd83a80adbf07c09aece323b81bbed4616.jar" />
+    </item>
+    <item
+        jar="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\libs\libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e887c6c9b31b39a39b0eaba981448b78902ea813">
+        <dex dex="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\build\intermediates\pre-dexed\debug\libGoogleAnalyticsServices-e59a19929d9e981fee7335a45126c92039087c32.jar" />
+    </item>
+    <item
+        jar="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\libs\gallery-lib.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e99b23840e364405f578e3d75d5ddde501837d59">
+        <dex dex="C:\Users\Darko\Desktop\BUSINESSAS\BusinessPortfolio\build\intermediates\pre-dexed\debug\gallery-lib-abc29fed7fda5ec5343737badfff2ef5db9b2223.jar" />
+    </item>
+
+</items>

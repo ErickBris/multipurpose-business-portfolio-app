@@ -1,0 +1,83 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="62dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/contact_company_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginRight="28dp"
+                    android:text="@string/company_name"
+                    android:textColor="#fff"
+                    android:textSize="24dp" />
+
+                <TextView
+                    android:id="@+id/contact_company_moto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="18dp"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginRight="28dp"
+                    android:text="@string/about_us_moto"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" >
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="28dp"
+                android:background="@drawable/left_divider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="28dp"
+                android:background="@drawable/rounded_background_white_30"
+                android:orientation="vertical"
+                android:padding="10dp" >
+
+                <include layout="@layout/contact_template" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/contact_open_map"
+            style="@style/RedButton"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:drawableLeft="@drawable/button_map"
+            android:paddingBottom="11dp"
+            android:paddingLeft="54dp"
+            android:paddingRight="54dp"
+            android:paddingTop="11dp"
+            android:text="@string/open_map" >
+
+        </TextView>
+    </LinearLayout>
+
+</ScrollView>

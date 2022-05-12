@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+
+    <include
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        layout="@layout/image_view" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:background="#cceeeeee"
+        android:ellipsize="end"
+        android:gravity="right|center_vertical" 
+        android:paddingRight="12dp"
+        android:visibility="gone"
+        android:singleLine="true" 
+        android:textColor="#58585a"
+        android:textSize="18sp" />
+
+</RelativeLayout><!-- From: file:/C:/Users/Darko/Desktop/BUSINESSAS/BusinessPortfolio/res/layout/gallery_images_grid_item.xml -->

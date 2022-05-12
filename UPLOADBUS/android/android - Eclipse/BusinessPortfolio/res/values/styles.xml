@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="SplashScreenStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@style/FadeoutSplashScreenStyle</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="FadeoutSplashScreenStyle">
+        <item name="android:windowExitAnimation">@anim/move_out</item>
+    </style>
+
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    
+    <style name="RedButton" parent="@android:style/Widget.TextView">
+        <item name="android:background">@drawable/selector_red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:paddingRight">40dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:textColor">@color/main_orange</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+</resources>

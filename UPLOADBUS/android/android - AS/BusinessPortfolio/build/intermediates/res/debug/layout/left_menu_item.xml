@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_menu_item_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selectior_left_menu"
+    android:drawablePadding="10dp"
+    android:paddingBottom="13dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="13dp"
+    android:textColor="#fff"
+    android:textSize="22dp" />
+
+<!-- From: file:/C:/Users/Darko/Desktop/BUSINESSAS/BusinessPortfolio/res/layout/left_menu_item.xml -->

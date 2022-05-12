@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Business Portfolio Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Business Portfolio&rdquo; Documentation by &ldquo;CreativeForm&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Business Portfolio&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 21/05/2014<br>
+					By: CreativeForm<br>
+					Email: <a href="mailto:dev@csform.com">dev@csform.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my code. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://codecanyon.net/user/CreativeForm">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#setupEclipse">Setup Eclipse ADT</a></li>
+			<li><a href="#importProject">Import Project</a></li>
+			<li><a href="#setUpServer">Set Up Server</a></li>
+			<li><a href="#dontHaveServer">Don't Have Server?</a></li>
+			<li><a href="#addOfflinePortfolio">Add Offline Portfolio.</a></li>
+			<li><a href="#whatYouMustChange">What You Must Change</a></li>
+			<li><a href="#whatYouShouldAndMayChange">What You Should and May Change?</a></li>
+			<li><a href="#leftMenuItems">Left Menu Items</a></li>
+			<li><a href="#changeOurTeamInformation">Change Our Team Information</a></li>
+			<li><a href="#changeClientsInformation">Change Clients Information</a></li>
+			<li><a href="#changeContactInformation">Change Contact Information</a></li>
+			<li><a href="#adMob">Change AdMob ID</a></li>
+			<li><a href="#analytics">Change Analytics Tracking ID</a></li>
+		</ol>
+		
+		<hr>
+		
+		<h3 id="setupEclipse"><strong>Setup Eclipse ADT</strong> - <a href="#toc">top</a></h3>
+		<p>If you haven't downloaded Eclipse ADT yet, you can download it <a href="http://developer.android.com/sdk/index.html" target="blank">here</a>. Click Download the SDK ADT Bundle for Windows/Linux/Mac.</p>
+		
+		<p>For Windows users, you may look to <a href="http://www.youtube.com/watch?v=_RNNgo79d2s" target="blank">this video</a> on how to install and set-up Eclipse ADT.</p>
+		
+		<p>For Ubuntu users, you may look to <a href="http://www.youtube.com/watch?v=c9_Nhmeks0U" target="blank">this video</a> on how to install and set-up Eclipse ADT.</p>
+		
+		<p>For Linux Mint users, you may look to <a href="http://www.youtube.com/watch?v=unF0alwZPGA" target="blank">this video</a> on how to install and set-up Eclipse ADT.</p>
+		
+		<p>For Mac OS X users, you may look to <a href="http://www.youtube.com/watch?v=ajQ2-K1yeH8" target="blank">this video</a> on how to install and set-up Eclipse ADT.</p>
+		
+		<hr>
+		
+		<h3 id="importProject"><strong>Import project</strong> - <a href="#toc">top</a></h3>
+		<p>After downloading packed file, unzip it and follow these instructions:</p>
+		
+		<p>Open Eclipse, click File -> Import... Under Android folder, choose Existing Android Code Into Workspace and click Next. Browse for unzipped folder and choose android folder. Click OK, then click Finish. Before clicking Finish, you may rename project name by clicking BusinessPortfolio under New Project Name tab and typing your own project name. Repeat the procedure for google-play-services_lib project.</p>
+		
+		<hr>
+
+		<h3 id="setUpServer"><strong>Set Up Server</strong> - <a href="#toc">top</a></h3>
+		<p><i>If you don't have available public server with public IP address, you can declare data through java source code. More details in this <a href="#dontHaveServer">section</a>.</i></p>
+		<p>Before you run your application, you should set up server and database and insert some data. Required database: MySQL. Required HTTP server: Apache or any compatible HTTP server that supports PHP module.</p>
+		<p>First, you should create database. <i>Remember full database name.</i> After that, create database user, give it <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> permisions and add that user to database. <i>Remember full database username and password.</i></p>
+		<p>If you have <a href="http://en.wikipedia.org/wiki/CPanel">CPanel</a> instaled on your server, you can create new database and database user using <i>MySQL® Databases</i> or <i>PhpMyAdmin</i> tool from your CPanel or you can ask your server administrator to create one.</p>
+		<p>Next 3 images show different CPanel options for 3 popular hosting providers (HostGator, BlueHost and AwardSpace, respectively):</p>
+		<img alt="Hostgator" title="Hostgator" src="./assets/images/db-hostgator.png"></img>
+		<img alt="bluehost" title="BlueHost" src="./assets/images/db-bluehost.png"></img>
+		<img alt="AwardSpace" title="AwardSpace" src="./assets/images/db-awardspace.png"></img>
+		
+		<p>After you create database and user, open folder where you have unzipped purchased product, then open folder named "server". You'll find there 'business_portfolio.sql' file. Open it with any text editor (preferebly use <a href="http://notepad-plus-plus.org/">Notepad++</a>) and find 22nd line of code, where you should change your database name that is written under apostrophe signs. Then save file and import it using Import function in PhpMyAdmin tool. Your database should be ready now.</p>
+		<p>All you now need to do is: upload "business.zip" file to PUBLIC_HTML folder on your server and extract it. You should get 'business' folder in it. Open that folder, then open 'protected' folder, then find 'config' folder and in it 'main.php' file. Open it find this part of code:</p>
+		<pre><code>'db'=>array(
+			'connectionString' => 'mysql:host=localhost;dbname=<i>business_portfolio</i>',
+			'emulatePrepare' => true,
+			'username' => '<i>root</i>',
+			'password' => '<i>password</i>',
+			'charset' => 'utf8',
+			'tablePrefix' => '',
+		),</code>
+		</pre>
+		<p>Change params that are written <i>italics</i> with newly created database name and username and password (not the database password, but username password). Then go to yourdomain.com/business and log in with admin/admin and add new data :)</p>
+		<hr>
+
+		<h3 id="whatYouMustChange"><strong>What You Must Change</strong> - <a href="#toc">top</a></h3>
+		
+		<p>In order for you application to work with you server database data, you need to change path to server. Open SyncDataHelper.java file and change lines that fit you server data:</p>
+		
+		<p><code>	public static final String URL_ROOT = "http://<i>www.pengaja.com</i>/business/index.php/";
+		<br></br>public static final String URL_UPLOADS = "http://<i>www.pengaja.com</i>/business/uploads/";</code></p>
+		<p>You should change www.pengaja.com to yourdomain dot com.</p>
+		
+		<hr>
+
+		<h3 id="dontHaveServer"><strong>Don't Have Server?</strong> - <a href="#toc">top</a></h3>
+		
+		<p>If you don't have server, this is not a problem. You can define every data programmatically in SyncOfflineData.java. You have an example on how to set up data when you open that file. And then, open MainActivity.java file, comment 55th and 69th line of code, and delete comment in 56th and 70th line of code. If you have changed anything, and can't find these lines of code, it should look like this (55th and 56th lines of code):</p>
+		<p><code>...<br></br>//private SyncData mSyncData;<br></br>private SyncOfflineData mSyncData;<br></br>...</code>
+		</p>
+		
+		<p>69th and 70th lines of code:</p>
+		</p>
+		<p><code>...<br></br>//mSyncData = new SyncData(this);<br></br>mSyncData = new SyncOfflineData(this);<br></br>...</code>
+		</p>
+		<p>After that, just import SyncOfflineData.java (right click on that line of code).
+		</p>
+		
+		<hr>
+
+		<h3 id="addOfflinePortfolio"><strong>Add Offline Portfolio</strong> - <a href="#toc">top</a></h3>
+		
+		<p>Open: <b>src/com.csform.android.wallpaper/SyncOfflineData.java</b> and manage method on 56th line (addPortfolioCategory).</p>
+		<p>In this method there is example of one category with 3 images. There can be added more than one category and added more images in each category, with repeat those steps.</p>
+		
+		<hr>
+
+		<h3 id="whatYouShouldAndMayChange"><strong>What You Should and May Change</strong> - <a href="#toc">top</a></h3>
+		
+		<p>There are some thing you should change to fit your company info. You will generally change .java, .html and .xml files. If you are about to change .java files, we've made shortcuts in our code. We added TODOs on every part of code that should and could be changed. Those things that you could change are written inside brackets.</p>
+		<p>To quickly find every TODO in Eclipse project, click Window -> Show View -> Other... Find Tasks View under General folder and click OK.</p>
+		
+		<hr>
+		
+		<h3 id="leftMenuItems"><strong>Left Menu Items</strong> - <a href="#toc">top</a></h3>
+		
+		<p>There are 5 left menu items in this application (Portfolio (Gallery), About Us, Our Team, Clients and Contact). Every item can be excluded deleting just one line of code. If you would like to sort them differently, cut and paste any line of code before or after another.</p>
+		
+		<p>To add new item, open 'LeftMenuItem.java' file (in 'com.csform.businessportfolio.model' package), create new public, static and final String like this:</p>
+		<pre>public static final long LEFT_MENU_MY_LEFT_MENU_ITEM = 16;</pre>
+		<p>Then, in 'MainActivity.java', in initLeftMenuItem() method, add new line for 'LEFT_MENU_MY_LEFT_MENU_ITEM' following the code for previous items. Then create new Fragment like one in 'com.csform.businessportfolio.fragment' package and follow the code from 'MainActivity.java' method selectItem(long tag) in order for your fragment to work on left menu drawer click.</p>
+		
+		<hr>
+		
+		<h3 id="changeContactInformation"><strong>Change Contact Information</strong> - <a href="#toc">top</a></h3>
+		
+		<p>To change your contact information, open ContactFragment.java in fragments package and find TODO after which you should find data to change.</p>
+		
+		<p>To change your location on map, open MapActivity.java file, and change LatLong to fit your needs. If you have more locations, add more LatLong objects by just copy-pasting that line of code and changing data.</p>
+		
+		<hr>
+
+		<h3 id="adMob"><strong>Change AdMob ID</strong> - <a href="#toc">top</a></h3>
+
+		<p>In order for your ads to work, you have to register (or, if registered, log in) <a href="http://www.admob.com/">here</a>. After registering/logging in, go <a href="http://www.admob.com/my_sites/create_site">here</a>, choose Android app and fill information. When you create new site, go <a href="http://www.admob.com/my_sites">here</a>, find your newly created site, hover with mouse over it and click Menage Settings. Find Publisher ID and copy it.</p>
+		
+		<p>After that, in Eclipse, open your project, open res folder, open layout folder, open main_activity.xml file. There, find (about line 12)</p>
+		<pre>ads:adUnitId="MY_AD_UNIT_ID"</pre>
+		<p>Change "MY_AD_UNIT_ID" with copied Publisher ID. When you run code in emulator or on phone, your ads should start showing in few minutes.</p>
+		
+		<hr>
+
+		<h3 id="analytics"><strong>Change Analytics Tracking ID</strong> - <a href="#toc">top</a></h3>
+
+		<p>Log in with your Google account <a href="https://www.google.com/analytics/">here</a>. In the Account column, select the account from the dropdown that you want to add the property to. If you have a lot of accounts, use the search box to help you find the right one. In the dropdown in the Property column, click Create new property. Select Mobile app and fill the rest of fields.</p>
+		
+		<p>After submiting, copy your tracking ID that is next to name of your newly created site. It should look like with UA-XXXX-Y. Copy it, open Eclipse, find res folder, find values folder and open analytics.xml and paste instead of UA-XXXX-Y.</p>
+		
+		<hr>
+
+		<h3 id="notice"><strong>Important notice</strong> - <a href="#toc">top</a></h3>
+		
+		<p>This app uses <a href="https://github.com/nostra13/Android-Universal-Image-Loader">UIL (Universal Image Loader) library</a> from Git-Hub under <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 licence</a>. You may find their documentation on how to provide URIs for ImageViews to display images. Here is a quick preview:</p>
+		
+		<ol class="alpha">
+			<li><pre>String imageUri = "http://site.com/image.png"; // from Web</pre></li>
+			<li><pre>String imageUri = "file:///mnt/sdcard/image.png"; // from SD card</pre></li>
+			<li><pre>String imageUri = "content://media/external/audio/albumart/13"; // from content provider</pre></li>
+			<li><pre>String imageUri = "assets://image.png"; // from assets</pre></li>
+			<li><pre>String imageUri = "drawable://" + R.drawable.image; // from drawables (only images, non-9patch)</pre></li>
+		</ol>
+		
+		<p>This app also uses <a href="https://github.com/chrisbanes/PhotoView">PhotoView library</a> from Git-Hub under <a href="http://www.apache.org/licenses/LICENSE-2.0">Apache 2.0 licence</a>.</p>
+		
+		<hr>
+		
+		<p>Once again, thank you so much for purchasing this app. As I said at the beginning, We'd be glad to help you if you have any questions relating to this app. No guarantees, but I'll do my best to assist.</p> 
+		
+		<p class="append-bottom alt large"><strong>CreativeForm</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
